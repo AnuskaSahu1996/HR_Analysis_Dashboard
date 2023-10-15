@@ -1,14 +1,23 @@
 # HR_Analysis_Dashboard
 
-📌 Project Assignment: Here I am submitting my last Project assigned as Task 3 "HR Analysis" by MeriSKILL.
+# 📌 Project Assignment: 
 
-📌 Project Purpose: The purpose of this analysis is to provide insight into effective employee management and help businesses meet their short-and long-term goals. It enables organization to measure the impact of a range of HR metrics on overall business performance and make decisions based on data. This Analysis helps to know about employee's performance, their satisfaction for the environment, reason of attrition, ratio of male and female etc.
+Here I am submitting my last Project assigned as Task 3 "HR Analysis" by MeriSKILL.
 
-📌 Data Exploration: Following the dataset, comprising various measurements as independent variables and one target variable, "Total Employee."
+# 📌 Project Purpose: 
 
-📌 Data Analysis: Our analysis insights and patterns to gather overall employees' details and information from different aspects and measurements.
+The purpose of this analysis is to provide insight into effective employee management and help businesses meet their short-and long-term goals. It enables organization to measure the impact of a range of HR metrics on overall business performance and make decisions based on data. This Analysis helps to know about employee's performance, their satisfaction for the environment, reason of attrition, ratio of male and female etc.
 
-📌 DAX Measures📈
+# 📌 Data Exploration: 
+
+Following the dataset, comprising various measurements as independent variables and one target variable, "Total Employee."
+
+# 📌 Data Analysis: 
+
+Our analysis insights and patterns to gather overall employees' details and information from different aspects and measurements.
+
+# 📌 DAX Measures📈
+
 Here are the DAX measures:
 
 Total EMP = COUNTROWS('HR-Employee-Attrition')
@@ -22,7 +31,8 @@ AttritionNo = CALCULATE ([Total Attrition],'HR-Employee-Attrition'[Attrition]="N
 %yes = DIVIDE ([Attrition yes], [Total Attrition],0)
 %No = DIVIDE([AttritionNo], [Total Attrition],0)
 
-📌 DAX Columns📊
+# 📌 DAX Columns📊
+
 overtimecal: This DAX is used to calculate the overtime working employees' total and percentage and relationship between age and overtime column.
 
 Tasks to perform: 
@@ -35,7 +45,7 @@ Cleaning individual columns.
 Remove the Nan values from the dataset.
 Check for some more Transformations.
 
-📊 Data Visualization:
+# 📊 Data Visualization:
 
 Insights: Below mentioned points are represented in different charts to reach the conclusion easily.
 
@@ -58,7 +68,7 @@ Insights: Below mentioned points are represented in different charts to reach th
 
 ![Screenshot (90)](https://github.com/AnuskaSahu1996/HR_Analysis_Dashboard/assets/144818919/0ca832bd-579b-486f-aacc-02076ecc59c1)
 
-Key Outcomes 📈🔑
+# Key Outcomes 📈🔑
 Our project delivered valuable outcomes:
 Insights: We uncovered insights to gather overall information about employees for the betterment and development of working environment.
 Recommendations: we monitored the performance, opportunities, education, healthy lifestyle, skilled employees, so that we can found out where we are lacking.
